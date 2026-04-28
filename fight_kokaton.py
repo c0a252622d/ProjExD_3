@@ -182,7 +182,7 @@ def main():
                     bombs[i] = None
                     bird.change_img(6, screen)  # 練習3：こうかとん喜びエフェクト
                     pg.display.update()
-                    time.sleep(1)
+                    # time.sleep(1)
         
         bombs = [bomb for bomb in bombs if bomb is not None]
 
