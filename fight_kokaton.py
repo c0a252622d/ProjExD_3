@@ -192,10 +192,3 @@ if __name__ == "__main__":
     main()
     pg.quit()
     sys.exit()
-
-
-if __name__ == "__main__":
-    pg.init()
-    main()
-    pg.quit()
-    sys.exit()
