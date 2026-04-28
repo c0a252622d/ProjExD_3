@@ -123,6 +123,12 @@ class Score:
     演習1：スコアに関するクラス
     """
     def __init__(self):
+        """
+        スコアの初期化
+            - フォントの設定
+            - スコアの初期値
+            - スコア表示用の画像と位置の設定
+        """
         self.fonto = pg.font.SysFont(None, 30)
         self.color = (0, 0, 255)
         self.score = 0
